@@ -1,0 +1,38 @@
+energy: 150
+eta: 500
+run: 0
+ic: 3
+npuvtx: 0
+/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt/scripts:/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt/bin:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin:/cvmfs/sft.cern.ch/lcg/releases/binutils/2.30-e5b21/x86_64-centos7/bin:/afs/cern.ch/cms/caf/scripts:/cvmfs/cms.cern.ch/common:/usr/sue/bin:/usr/condabin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt//bin:/afs/cern.ch/user/y/yumiao/public/HGCAL_Raw_Data_Handling/CommonModeTB_submission_version/PFCal/PFCalEE/g4build
+ ----------------------------------------
+ -- Input parameters: 
+ -- Input file path: /eos/cms/store/cmst3/group/hgcal/Geant4//git2023Sep/e-/HGcal_version120_model0_BOFF_en150_eta500_run0.root
+ -- Output file path: /pool/condor/dir_219475/
+ -- Processing all events.
+ -- Granularities: 0-1:1
+ -- noise: 0-1:0.15
+ -- thresholds: 0-1:5
+ -- intercalibration factor (in %): 3
+ -- number of Si layers: 3
+ -- number of PU: 0
+ -- pu file path: root://eoscms//eos/cms/store/cmst3/group/hgcal/Standalone/V12/MinBias/
+ -- Random seed will be set to : 0
+ ----------------------------------------
+Opening input file /eos/cms/store/cmst3/group/hgcal/Geant4//git2023Sep/e-/HGcal_version120_model0_BOFF_en150_eta500_run0.root -- Error, input file /eos/cms/store/cmst3/group/hgcal/Geant4//git2023Sep/e-/HGcal_version120_model0_BOFF_en150_eta500_run0.root cannot be opened. Exiting...
+--Local directory is  /pool/condor/dir_219475
+home=/afs/cern.ch/user/y/yumiao
+path=/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt/scripts:/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt/bin:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin:/cvmfs/sft.cern.ch/lcg/releases/binutils/2.30-e5b21/x86_64-centos7/bin:/afs/cern.ch/cms/caf/scripts:/cvmfs/cms.cern.ch/common:/usr/sue/bin:/usr/condabin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt//bin:/afs/cern.ch/user/y/yumiao/public/HGCAL_Raw_Data_Handling/CommonModeTB_submission_version/PFCal/PFCalEE/g4build
+ldlibpath=/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt/lib/python2.7/site-packages/torch/lib:/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt/lib/python2.7/site-packages/tensorflow:/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt/lib/python2.7/site-packages/tensorflow/contrib/tensor_forest:/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt/lib/python2.7/site-packages/tensorflow/python/framework:/cvmfs/sft.cern.ch/lcg/releases/LCG_97/./java/8u222/x86_64-centos7-gcc8-opt/jre/lib/amd64:/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt/lib64:/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/lib64:/cvmfs/sft.cern.ch/lcg/releases/binutils/2.30-e5b21/x86_64-centos7/lib:/cvmfs/sft.cern.ch/lcg/releases/R/3.5.3-5c668/x86_64-centos7-gcc8-opt/lib64/R/library/readr/rcon:/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt//lib64:/cvmfs/sft.cern.ch/lcg/releases/HepMC/2.06.10-1a364/x86_64-centos7-gcc8-opt//lib:/afs/cern.ch/user/y/yumiao/public/HGCAL_Raw_Data_Handling/CommonModeTB_submission_version/PFCal/PFCalEE/userlib/lib:/afs/cern.ch/user/y/yumiao/public/HGCAL_Raw_Data_Handling/CommonModeTB_submission_version/PFCal/PFCalEE/analysis/lib
+condor_exec.exe
+_condor_stderr
+_condor_stdout
+yumiao.cc
+
+srv:
+
+tmp:
+mjf-yumiao
+
+var:
+tmp
+ --- Problem with copy of file DigiPFcal.root to EOS. Keeping locally.

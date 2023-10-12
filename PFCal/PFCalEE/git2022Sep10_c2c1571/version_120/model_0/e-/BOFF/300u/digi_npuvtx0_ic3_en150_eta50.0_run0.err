@@ -1,0 +1,5 @@
+ -- Error ! Trying to access layer 1 outside of range. nLayers = 1
+error: unable to create directory (errc=1) (Operation not permitted)
+[eos-cp] copied 1/1 files and 879 B in 0.07 seconds with 12.62 kB/s
+Unable to stat /afs/cern.ch/user/y/yumiao/public/HGCAL_Raw_Data_Handling/CommonModeTB_submission_version/PFCal/PFCalEE/git2022Sep10_c2c1571/version_120/model_0/e-/BOFF/200u/Digi_300uversion120_model0_BOFF_npuvtx0_ic3_en150_eta500_run0.root; No such file or directory (errc=2) (No such file or directory)
+condor_exec.exe: line 61: [: !=: unary operator expected

@@ -1,0 +1,103 @@
+##############################
+## git tag history
+## Questions to Anne-Marie Magnan (IC London)
+##############################
+
+#####################
+## For branch master
+#####################
+Nothing for the moment
+
+V08-05-00
+----------
+* make config for digitiser
+* add versions with more air and copper.
+* fixed dEdx for mixed materials
+
+V08-04-00
+----------
+* fix outer boundary as a function of layer number -> PR#23 from Bryan 
+
+V08-03-00
+----------
+* fix in z0 position when simulating BH only, to be place where it should be starting from 3.9m. This is important to have the eta-phi granularity correctly set.
+* add protection against outliers in digitizer (hits with crazy cellid from overflow bins of the TH2Poly)
+* several improvements to submit scripts from Pedro.
+
+V08-02-00
+----------
+* fix bug in phi range: should be -pi to pi when initialising the eta-phi map.
+
+V08-01-00
+----------
+* debug Scintillator part of Si-Scint divide for back of FH and BH: fix non-sense cellid and x,y positions.
+* Fix noise generation to happen only in valid eta ranges (in Si layers, below eta boundary, in scint layers, above eta boundary...)
+
+
+V08-00-00
+----------
+* Update geometry to TDR as of review end-of-June 2017
+* adapt code to Si-Scint divide for back of FH and BH
+* do eta-phi granularity for BH scintillator cell sizes
+
+hexaV03-02-02
+--------------
+* update digitisation to not use vector of TH2Poly anymore, too heavy for model=2 full end-cap simulation.
+
+hexaV03-01-01
+--------------
+* update TH2Poly to accomodate any size, not just the TB setup.
+
+hexaV02-01-01
+--------------
+* integrate Phil's update for TB setup: in particular rotate geometry.
+
+hexaV01-01-01
+--------------
+* first version with hexagons.
+
+V07-00-00
+----------
+* tag square version before switching master to hexagons.
+
+V06d-04-06
+----------
+* Add other TB versions for study of gaps structure
+
+V06b-03-05
+-----------
+* Add TB version 101 with 0 air gap for study of impact on even-odd layer structure.
+
+V06a-03-05
+----------
+* add energy per 3*3 region in SignalRegion output tree.
+* add missing analysis config files for mip studies.
+* fix digi for model 4
+
+V06a-03-04
+----------
+* add missing analysis macros to plot time info (cells above 60fC for pions for descop document).
+* DetectorConstruction: change cracks to be shifted layer-to-layer.
+* PrimaryGeneratorAction: do X-Y scan between -1.5-1.5cm for model 3 (for Jack).
+
+V06-03-04
+----------
+* Fix model4 with cracks, using integer staging, crack positions shifted by blocks of 10 - 10 - 8.
+* userlib: add vertex position, fix choice of si layer thickness and cell size to vary only for model 2, but be taken from steering parameters for other models.
+
+V06-02-04
+----------
+* DetectorConstruction: add testbeam version 100, and model 4 with transverse cracks. Reorganise code to have sectors and intersectors.
+* userlib: correct BHCAL mip weight (was still using 9mm scintillator).
+
+V05-02-04
+----------
+* add analysis/macros/Descop macros for descoping studies
+* DetectorConstruction: correct v6 geometry, using rounded absorber width and properly staging from 28 to 24 and 18 layers, add full descoped detector versions: v_HGCAL_v624=v38 and v_HGCAL_v618=v39.
+* PrimaryGeneratorAction: do gaussian z vertex smearing and random choice of phi angle only for full detector model=2.
+* userlib: add new versions in HGCSSDetector and submitDigi.sh
+
+
+
+
+

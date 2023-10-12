@@ -1,0 +1,3 @@
+Error in <TFile::TFile>: file /eos/cms/store/cmst3/group/hgcal/Geant4//git2022Sep10_c2c1571/pi-/HGcal_version120_model0_BOFF_en150_eta500_run1.root does not exist
+error: unable to create directory (errc=1) (Operation not permitted)
+error: cannot get file size of path=/pool/condor/dir_270779/DigiPFcal.root [protocol=local]

@@ -1,0 +1,24 @@
+--Local directory is /pool/condor/dir_283054
+home=/afs/cern.ch/user/y/yumiao
+path=/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt/scripts:/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt/bin:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin:/cvmfs/sft.cern.ch/lcg/releases/binutils/2.30-e5b21/x86_64-centos7/bin:/afs/cern.ch/cms/caf/scripts:/cvmfs/cms.cern.ch/common:/usr/sue/bin:/usr/condabin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt//bin:/afs/cern.ch/user/y/yumiao/public/HGCAL_Raw_Data_Handling/CommonModeTB_submission_version/PFCal/PFCalEE/g4build
+ldlibpath=/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt/lib/python2.7/site-packages/torch/lib:/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt/lib/python2.7/site-packages/tensorflow:/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt/lib/python2.7/site-packages/tensorflow/contrib/tensor_forest:/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt/lib/python2.7/site-packages/tensorflow/python/framework:/cvmfs/sft.cern.ch/lcg/releases/LCG_97/./java/8u222/x86_64-centos7-gcc8-opt/jre/lib/amd64:/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt/lib64:/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/lib64:/cvmfs/sft.cern.ch/lcg/releases/binutils/2.30-e5b21/x86_64-centos7/lib:/cvmfs/sft.cern.ch/lcg/releases/R/3.5.3-5c668/x86_64-centos7-gcc8-opt/lib64/R/library/readr/rcon:/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-centos7-gcc8-opt//lib64:/cvmfs/sft.cern.ch/lcg/releases/HepMC/2.06.10-1a364/x86_64-centos7-gcc8-opt//lib:/afs/cern.ch/user/y/yumiao/public/HGCAL_Raw_Data_Handling/CommonModeTB_submission_version/PFCal/PFCalEE/userlib/lib:/afs/cern.ch/user/y/yumiao/public/HGCAL_Raw_Data_Handling/CommonModeTB_submission_version/PFCal/PFCalEE/analysis/lib
+-rwxr-xr-x. 1 yumiao zh 5.1K Jul 18 09:52 condor_exec.exe
+-rw-------. 1 yumiao zh 3.3K Jul 18 09:52 yumiao.cc
+-rw-r--r--. 1 yumiao zh    0 Jul 18 09:52 _condor_stderr
+-rw-r--r--. 1 yumiao zh  216 Jul 18 09:53 G4History.macro
+-rw-r--r--. 1 yumiao zh   30 Jul 18 09:53 currentRun.rndm
+-rw-r--r--. 1 yumiao zh   39 Jul 18 21:37 currentEvent.rndm
+-rw-r--r--. 1 yumiao zh 492K Jul 18 21:38 _condor_stdout
+-rw-r--r--. 1 yumiao zh 191M Jul 18 21:38 HGcal_version120_model0_BOFF_en150_eta500_run3.root
+
+var:
+total 0
+drwx------. 2 yumiao zh 10 Jul 18 09:52 tmp
+
+srv:
+total 0
+
+tmp:
+total 0
+drwxr-xr-x. 3 yumiao zh 72 Jul 18 09:52 mjf-yumiao
+ --- Problem with copy of file PFcal.root to EOS. Keeping locally.

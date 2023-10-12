@@ -1,0 +1,17 @@
+
+ *** Break *** bus error
+#0  0x00002b9c2fe2260c in ?? ()
+#1  0x00002b9c2fd9ff62 in ?? ()
+#2  0x00007ffc000001b0 in ?? ()
+#3  0x00007ffc752e3260 in ?? ()
+#4  0x00002b9c2fda0200 in ?? ()
+#5  0x00007ffc752e3250 in ?? ()
+#6  0x0000000000000000 in ?? ()
+error: unable to create directory (errc=1) (Operation not permitted)
+error: target file open failed - errno=13 : Permission denied [[ERROR] Error response: permission denied]
+error: failed copying path=root://eoscms.cern.ch//eos/cms/store/cmst3/group/hgcal/Geant4/git2023Sep/e-/HGcal_version120_model0_BOFF_en150_eta500_run2.root
+#WARNING [eos-cp] copied 0/1 files and 0 B in 0.06 seconds with 0 B/s
+rm: cannot remove ‘core.*’: No such file or directory
+cp: omitting directory ‘srv’
+cp: omitting directory ‘tmp’
+cp: omitting directory ‘var’

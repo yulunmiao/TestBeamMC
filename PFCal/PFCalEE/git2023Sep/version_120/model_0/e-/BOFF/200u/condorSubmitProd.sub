@@ -1,0 +1,13 @@
+universe = vanilla
+Executable = /afs/cern.ch/user/y/yumiao/public/HGCAL_Raw_Data_Handling/CommonModeTB_submission_version/PFCal/PFCalEE/git2023Sep/version_120/model_0/e-/BOFF/200u/runJob.sh
+Arguments = --energy $(ENERGY) --eta $(ETA) --run $(Step) --granularity $(GRAN)
+MY.WantOS = "el7"
+Output = /afs/cern.ch/user/y/yumiao/public/HGCAL_Raw_Data_Handling/CommonModeTB_submission_version/PFCal/PFCalEE/git2023Sep/version_120/model_0/e-/BOFF/200u/prod_en$(ENERGY)_eta$(ETA)_run$(Step).out
+Error = /afs/cern.ch/user/y/yumiao/public/HGCAL_Raw_Data_Handling/CommonModeTB_submission_version/PFCal/PFCalEE/git2023Sep/version_120/model_0/e-/BOFF/200u/prod_en$(ENERGY)_eta$(ETA)_run$(Step).err
+Log = /afs/cern.ch/user/y/yumiao/public/HGCAL_Raw_Data_Handling/CommonModeTB_submission_version/PFCal/PFCalEE/git2023Sep/version_120/model_0/e-/BOFF/200u/prod_en$(ENERGY)_eta$(ETA)_run$(Step).log
+RequestMemory = 2GB
++JobFlavour = "testmatch"
+JobBatchName = prod_2023Sep_120_e-
+Queue 5 ENERGY, ETA, GRAN from (
+150, 50.0, 0
+)

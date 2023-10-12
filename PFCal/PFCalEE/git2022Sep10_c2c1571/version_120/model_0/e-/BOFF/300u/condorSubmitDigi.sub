@@ -1,0 +1,13 @@
+universe = vanilla
+Executable = /afs/cern.ch/user/y/yumiao/public/HGCAL_Raw_Data_Handling/CommonModeTB_submission_version/PFCal/PFCalEE/git2022Sep10_c2c1571/version_120/model_0/e-/BOFF/300u/runDigiJob.sh
+Arguments = --energy $(ENERGY) --eta $(ETA) --run $(Step) --ic $(IC) --npuvtx $(NPUVTX) 
+Requirements = (OpSysAndVer =?= "CentOS7")
+Output = /afs/cern.ch/user/y/yumiao/public/HGCAL_Raw_Data_Handling/CommonModeTB_submission_version/PFCal/PFCalEE/git2022Sep10_c2c1571/version_120/model_0/e-/BOFF/300u/digi_npuvtx$(NPUVTX)_ic$(IC)_en$(ENERGY)_eta$(ETA)_run$(Step).out
+Error = /afs/cern.ch/user/y/yumiao/public/HGCAL_Raw_Data_Handling/CommonModeTB_submission_version/PFCal/PFCalEE/git2022Sep10_c2c1571/version_120/model_0/e-/BOFF/300u/digi_npuvtx$(NPUVTX)_ic$(IC)_en$(ENERGY)_eta$(ETA)_run$(Step).err
+Log = /afs/cern.ch/user/y/yumiao/public/HGCAL_Raw_Data_Handling/CommonModeTB_submission_version/PFCal/PFCalEE/git2022Sep10_c2c1571/version_120/model_0/e-/BOFF/300u/digi_npuvtx$(NPUVTX)_ic$(IC)_en$(ENERGY)_eta$(ETA)_run$(Step).log
+RequestMemory = 150MB
++JobFlavour = "longlunch"
+JobBatchName = digi_2022Sep10_c2c1571_120_e-
+Queue 5 NPUVTX, IC, ENERGY, ETA from (
+0, 3, 150, 50.0
+)

@@ -1,0 +1,8 @@
+error: unable to create directory (errc=1) (Operation not permitted)
+error: target file open failed - errno=13 : Permission denied [[ERROR] Error response: permission denied]
+error: failed copying path=root://eoscms.cern.ch//eos/cms/store/cmst3/group/hgcal/Geant4/git2023Sep/e-/HGcal_version120_model0_BOFF_en150_eta500_run0.root
+#WARNING [eos-cp] copied 0/1 files and 0 B in 0.07 seconds with 0 B/s
+rm: cannot remove ‘core.*’: No such file or directory
+cp: omitting directory ‘srv’
+cp: omitting directory ‘tmp’
+cp: omitting directory ‘var’

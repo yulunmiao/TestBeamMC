@@ -1,0 +1,12 @@
+/control/verbose 0
+/control/saveHistory
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+/N03/det/setField 0.0 T
+/N03/det/setModel 0
+/random/setSeeds 60352 21789
+/generator/select particleGun
+/gun/particle e- 
+/gun/energy 150.000000 GeV
+/run/beamOn 5000

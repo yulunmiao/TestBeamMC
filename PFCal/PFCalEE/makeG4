@@ -1,0 +1,9 @@
+#!/bin/sh
+
+mkdir -p $G4Build
+cd $G4Build
+#cmake -DGeant4_DIR=$G4DIR -DWITH_GEANT4_UIVIS=ON ../
+cmake -DGeant4_DIR=$G4DIR -DWITH_GEANT4_UIVIS=ON ../
+make -j 8
+
+cd ../
